@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+  height: 11vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e0dc14;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.header:hover {
+  background-color: #d9d60c;
+}
+
+.container-logo {
+  width: 200px;
+}
+
+.logo {
+  max-width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.nav {
+  height: 45%;
+}
+
+.ul-items-nav {
+  display: flex;
+  gap: 30px;
+}
+
+.ul-items-nav li {
+  list-style: none;
+}
+
+.ul-items-nav a {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.ul-items-nav a:hover {
+  background-color: white;
+  color: #d9d60c;
+}
+
+.main {
+  background-color: #e0dc14;
+}
+
+.section-principal {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.contenedor-title {
+  padding-left: 200px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.title-main {
+  font-size: 80px;
+  margin-bottom: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.parrafo-main {
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-buttons-main {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-main {
+  padding: 5px;
+  border-style: none;
+  border-radius: 15px;
+  margin: 5px 0px 10px 15px;
+  font-weight: 500;
+}
+
+.container-buttons-main :hover {
+  background-color: #c6cccbc0;
+}
+
+.contenedor-imagen-main {
+  height: 55%;
+  width: 45%;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.contenedor-imagen-main video {
+  width: 100%;
+  /* height: 10px; */
+  height: auto;
+  border-radius: 60px;
+}
+/* Section Surotec news */
+
+.SuroNews {
+  margin-bottom: 100px;
+}
+
+.title-suroNews {
+  margin-top: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.container-img-SuroNews {
+  height: 40rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.container-img-SuroNews h2 {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.container-img-SuroNews a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  width: 15%;
+  border-radius: 8px;
+  margin: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
+
+.container-1-big {
+  width: 35%;
+}
+
+.content-1-SuroNews {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+
+.content-1-SuroNews img,
+.content-2-SuroNews img,
+.content-3-SuroNews img {
+  border-radius: 10px 10px 0px 0px;
+  height: 60%;
+  width: 90%;
+}
+
+.content-1-SuroNews p {
+  width: 90%;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.container-2-tall {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.content-2-SuroNews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  height: 48%;
+  position: relative;
+}
+
+.content-3-SuroNews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  height: 48%;
+}
+
+/* About the region */
+
+.title-about-region {
+  font-weight: bold;
+}
+
+.about-region {
+  text-align: center;
+  margin: 50px;
+  height: 400px;
+  position: relative;
+}
+
+.more-information {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  background-color: #16341d;
+  color: white;
+}
+
+.line {
+  width: 80%;
+  height: 2px;
+  background-color: black;
+  margin: 10px auto 30px auto;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.category {
+  text-align: center;
+}
+
+.category img {
+  width: 60px;
+  height: 60px;
+}
+
+.category p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+/* Local */
+
+.title-local {
+  font-weight: bold;
+}
+
+.local-section {
+  padding: 20px;
+}
+
+.local-section h2 {
+  font-size: 2em;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Estilo de la línea horizontal */
+.line {
+  width: 80%;
+  height: 2px;
+  background-color: black;
+  margin: 10px auto 30px auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 10px;
+  font-size: 1em;
+  color: black;
+}
+
+/* footer */
+
+.aliados-section {
+  background-color: #d9d900;
+  padding: 20px 0;
+}
+
+.aliados-section h2 {
+  font-size: 2em;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.aliados-section .logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.aliados-section .logos img {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.footer {
+  background-color: #16341d;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.footer img {
+  display: block;
+  margin: 0 auto;
+  width: 220px;
+  height: auto; /* Mantiene la proporción del logo */
+}
+
+.footer p {
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
